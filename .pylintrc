@@ -1,0 +1,13 @@
+[MASTER]
+load-plugins=pylint_django
+ignore=migrations
+
+[MESSAGES CONTROL]
+disable=too-few-public-methods
+
+[TYPECHECK]
+# Add the names of Django models to the ignored-classes list to prevent "no-member" errors
+ignored-classes=CharField,ForeignKey,Model,QuerySet,Manager
+
+[DESIGN]
+max-attributes=10

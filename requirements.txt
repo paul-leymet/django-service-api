@@ -1,2 +1,4 @@
 django
 graphene-django     
+pylint
+pylint-django
